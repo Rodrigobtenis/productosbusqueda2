@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.banner {
+    background-color: #8bbaec; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    text-align: center;
+    padding: 20px;
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Grosor del texto */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+  }
+  
+  .banner h1 {
+    margin: 0;
+  }
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  h2 {
+    color: #000000;
+  }
+  
+  button {
+    font-family: 'Raleway', sans-serif;
+
+    background-color: #ebe2e2;
+    color: #000000;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #d7dee6;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    background-color: #f2f5f8;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-radius: 3px;
+    margin: 10px;
+     font-style: italic;
+    
+  }
+  
+  input {
+    width: 25px;
+    margin: 0 -3px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #d7dde4;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #cfd7df;
+  }
+
+  li button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 4px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  li button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el botón de eliminar */
+  li button:last-child {
+    background-color: #ff0019; /* Rojo para indicar eliminar */
+  }
+  
+  li button:last-child:hover {
+    background-color: #c82333;
+  }
