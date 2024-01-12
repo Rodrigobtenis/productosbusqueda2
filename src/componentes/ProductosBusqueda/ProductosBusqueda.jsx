@@ -67,7 +67,7 @@ const ProductList = () => {
   { id: 61, name: 'PROMO SPARK CARTUCHOS X10 UNIDADES 1201, 1203, 1205, 1207, 1209, 1211, 1214', variants: ['1201', '1203', '1205', '1207', '1209', '1211', '1214'], price: 8900 },
   { id: 63, name: 'Cartuchos para pen de tattoo BRONC X10', variants: ['0801', '1001', '1003', '1005'], price: 11300 },
   { id: 64, name: 'Cartuchos para pen de tattoo BRONC Blister', variants: ['0801', '1001', '1003', '1005'], price: 6000 },
-  { id: 65, name: 'Cartuchos COCO x10', variants: ['0601', '0801', '1001', '0803', '1003'], price: 8900 },
+  { id: 65, name: 'Cartuchos COCO x10', variants: ['0601', '0801', '1001', '0803', '1003'], price: 9300 },
   { id: 66, name: 'Cartuchos COCO x5', variants: ['0601', '0801'], price: 5000 },
   { id: 67, name: 'Cartuchos Dermografo Medidas 1R y 3R', variants: [], price: 875 },
   { id: 68, name: 'Cartuchos Dermografo Medidas 5R', variants: [], price: 875 },
