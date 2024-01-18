@@ -5,6 +5,7 @@ import "./ProductosBusqueda.css";
 
 
 const ProductList = () => {
+    const [clientName, setClientName] = useState('');
   const [products] = useState([
     { id: 1, name: 'Filos Microblading x unidad 18U 0.18, 18U 0.25, 16 angulares', price: 270 },
     { id: 2, name: 'Filos Microshading x unidad 17R y 21R', price: 240 },
@@ -53,13 +54,13 @@ const ProductList = () => {
   { id: 47, name: 'Crema Fouguera Microblading x10', price: 2800 },
   { id: 48, name: 'Crema Fouguera Microblading x50', price: 12250 },
   { id: 49, name: 'Pen Rocket 2', price: 97000 },
-  { id: 50, name: 'Pen Soulnova E2', price: 148990 },
+  { id: 50, name: 'Pen Soulnova E2', price: 156900 },
   { id: 51, name: 'Pen Black Bird', price: 57000 },
   { id: 52, name: 'Fuente Nacional sin visor', price: 22950 },
   { id: 53, name: 'Fuente Nacional con Visor', price: 27690 },
   { id: 54, name: 'Fuente Inalambrica BRONC', price: 72100 },
   { id: 55, name: 'Fuente Inalmabrica Supremme', price: 42300 },
-  { id: 56, name: 'Kit Micropigmentacion Tattoo Rocket 2 Fuente Digital', price: 110000 },
+  { id: 56, name: 'Kit Micropigmentacion Tattoo Rocket 2 Fuente Digital', price: 129900 },
   { id: 57, name: 'Cartuchos para pen de tattoo xblister 5 unidades AVA', variants: ['0801', '1001', '1201', '0803', '1003', '1203', '1005', '1205', '1207', '1209', '1211', '1214'], price: 4300 },
   { id: 58, name: 'Cartuchos para pen de tattoo Caja x10 AVA', variants: ['0801', '1001', '1201', '0803', '1003', '1203', '1005', '1205', '1207', '1209', '1211', '1214'], price: 8900 },
   { id: 59, name: 'PROMO SPARK CARTUCHOS X20 UNIDADES 1201, 1203, 1205', variants: ['1201', '1203', '1205'], price: 15990 },
@@ -127,6 +128,7 @@ const ProductList = () => {
   { id: 124, name: 'Tinta Dynamic USA 1oz', price: 5400 },
   ]);
 
+  
 
   const formatOptionLabel = ({ label, value }) => (
     <div>
@@ -191,6 +193,15 @@ const ProductList = () => {
 
       
       <h1 className='banner'>INSUMOS BY ESTUDIO DATRI</h1>
+      <label>Nombre del Cliente:</label>
+      <input
+        type="text"
+        placeholder="Nombre del Cliente"
+        value={clientName}
+        onChange={(e) => setClientName(e.target.value)}
+        className="client-name-input" // Agregamos la clase
+      />
+
       <h1>Buscar Producto</h1>
 
       

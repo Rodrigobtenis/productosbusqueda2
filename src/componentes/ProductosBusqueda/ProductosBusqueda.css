@@ -111,6 +111,14 @@ body {
     border-color: #cfd7df;
   }
 
+  .client-name-input {
+    width: 90px;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    border-color: green;
+    margin: 2px;
+  }
+
   li button {
     background-color: #007bff;
     color: #fff;
@@ -133,3 +141,15 @@ body {
   li button:last-child:hover {
     background-color: #c82333;
   }
+
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+        padding: 20px; /* Ajustar el espaciado general en pantallas más pequeñas */
+    }
+
+    .container {
+        width: 100%; /* Ocupar el ancho completo en pantallas más pequeñas */
+    }
+}
