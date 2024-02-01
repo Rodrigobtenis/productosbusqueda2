@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Select from 'react-select';
 import "./ProductosBusqueda.css";
+import Productos from '../Productos/Productos';
 
 
 
