@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Select from 'react-select';
 import "./ProductosBusqueda.css";
-import Productos from '../Productos/Productos';
+
 
 
 
@@ -25,18 +25,18 @@ const ProductList = () => {
     { id: 15, name: 'Calibre Pequeño', price: 900 },
     { id: 16, name: 'Microhisopos x100', price: 2900 },
     { id: 17, name: 'Microhisopos de Madera x100', price: 900 },
-    { id: 18, name: 'Cups x100', price: 900 },
-    { id: 19, name: 'Anillos x100', price: 2490 },
-    { id: 20, name: 'Cepillos de pestañas x50', price: 2400 },
-    { id: 21, name: 'Perfiladores x3', price: 900 },
-    { id: 22, name: 'Descartador de agujas 1.4L', price: 2000 },
+    { id: 18, name: 'Cups x100', price: 1300 },
+    { id: 19, name: 'Anillos x100', price: 2690 },
+    { id: 20, name: 'Cepillos de pestañas x50', price: 2900 },
+    { id: 21, name: 'Perfiladores x3', price: 1100 },
+    { id: 22, name: 'Descartador de agujas 2.2L', price: 2900 },
     { id: 23, name: 'Anestesia TKTX crema 40% Para Piel Cerrada', price: 2450 },
     { id: 24, name: 'Anestesia TKTX crema 55% La mas poderosa del mercado', price: 6900 },
     { id: 25, name: 'Butter 250gr', price: 4900 },
     { id: 26, name: 'Espuma de Limpieza Magic', price: 9800 },
     { id: 27, name: 'Campos de trabajo x100', price: 5900 },
-    { id: 28, name: 'Cofias x100', price: 4900 },
-    { id: 29, name: 'Cofias x10', price: 600 },
+    { id: 28, name: 'Cofias x100', price: 5600 },
+    { id: 29, name: 'Cofias x10', price: 700 },
     { id: 30, name: 'Lapicera Gel Blanca - Negra - Roja', price: 2300 },
     { id: 31, name: 'Pigmento Tewennie', price: 6300 },
   { id: 32, name: 'Luanes', price: 23990 },
@@ -57,11 +57,11 @@ const ProductList = () => {
   { id: 49, name: 'Pen Rocket 2', price: 115000 },
   { id: 50, name: 'Pen Soulnova E2', price: 164100 },
   { id: 51, name: 'Pen Black Bird', price: 89000 },
-  { id: 52, name: 'Fuente Nacional sin visor', price: 22950 },
+  { id: 52, name: 'Fuente Nacional sin visor', price: 25990 },
   { id: 190, name: 'Fuente Inalmabrica AVA', price: 47900 },
 { id: 191, name: 'Kit Pen Black Bird con Fuente Digital Completo', description: 'Más de 13 Productos', price: 119000 },
 { id: 199, name: 'Kit Pen Black Bird con Fuente inalámbrica', price: 112000 },
-{ id: 600, name: 'Stencil Garage 1oz', price: 1000 },
+{ id: 600, name: 'Stencil Garage 1oz', price: 1400 },
   { id: 53, name: 'Fuente Nacional con Visor', price: 27690 },
   { id: 696, name: 'Crema Post Tattoo Condor 22 Vegana', price: 4500 },
   { id: 54, name: 'Fuente Inalambrica BRONC', price: 72100 },
@@ -81,10 +81,10 @@ const ProductList = () => {
   
   { id: 72, name: 'Guantes Nitrilo Negros Talle S y M', price: 6900 },
   { id: 73, name: 'Guantes Nitrilo Rosas Talle S y M', price: 7200 },
-  { id: 74, name: 'Descartador de agujas 1.4L Para Tirar los Cortopunzantes', price: 2350 },
+
   { id: 75, name: 'Espuma de Limpieza Magic', price: 5100 },
   { id: 76, name: 'Campos de trabajo x100 Para colocar en tu mesa de trabajo', price: 5900 },
-  { id: 77, name: 'Crema post Tattoo Magic x30gr', price: 450 },
+  
  
   { id: 79, name: 'Cubre pen x100 Para Proteger al pen de la contaminación cruzada', price: 2800 },
   { id: 80, name: 'Cubre Pen Rosas x100 Para Proteger al pen de la contaminación cruzada', price: 2800 },
@@ -102,8 +102,7 @@ const ProductList = () => {
   { id: 91, name: 'Cubre Camilla Lycra Elastizado', price: 25000 },
   { id: 92, name: 'KIT TATTOO COMPLETO KABUKI', description: 'KIT TATUAJES KABUKI ... QR VIDEO DE COMO ARMAR LA MAQUINA CORRECTAMENTE - 3 GROMMETS', price: 42000 },
   { id: 93, name: 'Kit Tattoo Hand Poked', description: 'Incluye 13 productos! Consultanos', price: 15990 },
-  { id: 94, name: 'Fuente Nacional sin visor', description: 'Incluye pedal', price: 31000 },
-  { id: 95, name: 'Fuente Nacional con Visor', description: 'Incluye pedal', price: 20990 },
+  
   { id: 96, name: 'Maquina Rotativa Kabuki', price: 11900 },
   { id: 97, name: 'Clorexhidina 300ml', description: 'Para Armar solucion jabonosa', price: 3900 },
   { id: 98, name: 'Dosificador spray 500cc', price: 1100 },
