@@ -8,15 +8,15 @@ import "./ProductosBusqueda.css";
 const ProductList = () => {
     const [clientName, setClientName] = useState('');
   const [products] = useState([
-    { id: 1, name: 'Filos Microblading x unidad 18U 0.18, 18U 0.25, 16 angulares', price: 270 },
-    { id: 2, name: 'Filos Microshading x unidad 17R y 21R', price: 240 },
-    { id: 3, name: 'Filos Microblading x10 18U 0.18, 18U 0.25, 16 angulares', price: 2400 },
-    { id: 4, name: 'Filos Microblading x50 18U 0.18, 18U 0.25, 16 angulares', price: 11500 },
+    { id: 1, name: 'Filos Microblading x unidad 18U 0.18, 18U 0.25, 16 angulares', price: 300 },
+    { id: 2, name: 'Filos Microshading x unidad 17R y 21R', price: 300 },
+    { id: 3, name: 'Filos Microblading x10 18U 0.18, 18U 0.25, 16 angulares', price: 2700 },
+    { id: 4, name: 'Filos Microblading x50 18U 0.18, 18U 0.25, 16 angulares', price: 13000 },
     { id: 5, name: 'Tebori Doble punta', price: 2900 },
-    { id: 6, name: 'Piel Sintetica Chica Medidas 14x19', price: 2300 },
+    { id: 6, name: 'Piel Sintetica Chica Medidas 14x19', price: 2900 },
     { id: 7, name: 'Piel Sintetica Cejas No necesita pigmento', price: 3200 },
     { id: 8, name: 'Piel Sintetica Grande A4 Medida A4', price: 4500 },
-    { id: 9, name: 'Film Microblading 200 metros', price: 1500 },
+    { id: 9, name: 'Film Microblading 200 metros', price: 1800 },
     { id: 10, name: 'Guantes Nitrilo Negros Talle S y M', price: 6900 },
     { id: 11, name: 'Guantes Nitrilo Rosas Talle S y M', price: 7200 },
     { id: 12, name: 'Marcador Quirurgico', price: 2000 },
@@ -42,7 +42,7 @@ const ProductList = () => {
   { id: 32, name: 'Luanes', price: 23990 },
   { id: 33, name: 'Iron Works', price: 35000 },
   { id: 34, name: 'Permablend', price: 39000 },
-
+  { id: 34, name: 'Dermografo Inalambrico', price: 46900 },
   { id: 36, name: 'Organic Colors Cejas y Delineado', price: 29900 },
   { id: 37, name: 'Organic Colors Labios y Scalp', price: 35900 },
   { id: 38, name: 'Anestesia TKTX Crema 55%', price: 6900 },
@@ -56,12 +56,14 @@ const ProductList = () => {
   { id: 48, name: 'Crema Fouguera Microblading x50', price: 13350 },
   { id: 49, name: 'Pen Rocket 2', price: 115000 },
   { id: 50, name: 'Pen Soulnova E2', price: 170900 },
-  { id: 51, name: 'Pen Black Bird', price: 89000 },
+  { id: 51, name: 'Pen Black Bird', price: 69000 },
   { id: 52, name: 'Fuente Nacional sin visor', price: 25990 },
   { id: 190, name: 'Fuente Inalmabrica AVA', price: 47900 },
 { id: 191, name: 'Kit Pen Black Bird con Fuente Digital Completo', description: 'Más de 13 Productos', price: 119000 },
+{ id: 191999, name: 'Pen de Tattoo Estandar', description: 'Más de 13 Productos', price: 64000 },
 { id: 199, name: 'Kit Pen Black Bird con Fuente inalámbrica', price: 112000 },
 { id: 600, name: 'Stencil Garage 1oz', price: 1400 },
+{ id: 665600, name: 'Tinta 5 Jinetes', price: 3900 },
   { id: 53, name: 'Fuente Nacional con Visor', price: 27690 },
   { id: 696, name: 'Crema Post Tattoo Condor 22 Vegana', price: 4500 },
   { id: 54, name: 'Fuente Inalambrica BRONC', price: 72100 },
@@ -114,9 +116,9 @@ const ProductList = () => {
   { id: 103, name: 'Papel Hectografico x unidad', price: 590 },
   { id: 104, name: 'Papel Hectografico x5 uniudades', price: 3500 },
   { id: 105, name: 'Papel Hectografico x10', price: 5900 },
-  { id: 106, name: 'Papel Hectografico x100', price: 41000 },
+  { id: 106, name: 'Papel Hectografico x100', price: 45000 },
   { id: 107, name: 'Piel Sintetica A4', description: 'Tamaño 21x27', price: 4500 },
-  { id: 108, name: 'Piel Sintetica Comun', description: 'Tamaño 14x19', price: 3000 },
+  
   { id: 109, name: 'Agujas Varilla x5 unidades', description: '1203, 1205, 1211, 1214', price: 2000 },
   { id: 110, name: 'Agujas Varilla x10 Unidades', description: '1203, 1205, 1211, 1214', price: 3900 },
   { id: 111, name: 'Agujas Varilla Caja x25', description: '1203, 1205, 1211, 1214', price: 7500 },
@@ -165,7 +167,26 @@ const ProductList = () => {
   { id: 6005, name: "Adhesivo negro elite + 5g", price: 24990 },
   { id: 6010, name: "Adhesivo negro elite + 10g", price: 36490 },
   { id: 5515, name: "pre adhesivo absolute glue aroma menta - secado super rapido 15ml", price: 25390 },
-  { id: "porta_cups_rosa", name: "Porta Cups Rosa", price: 1900 }
+  { id: 65648561, name: "PRIMER CON PINCEL 5g", price: 10450 },
+  { id: 656486651, name: "PRIMER EN SPRAY AROMA FLORES 40ml", price: 14850 },
+  { id: 656485661, name: "PRIMER EN SPRAY NEUTRO 40ml ", price: 14850 },
+  { id: 564666851, name: "Removedor EN CREMA GRIS de 5g", price: 9890 },
+  { id: 656664851, name: "Removedor EN CREMA AROMA FRUTILLA 15g", price: 16350 },
+  { id: 656485, name: "Removedor EN GEL NEUTRO 20g", price: 13190 },
+  { id: 98985, name: "Fixing Gel 8g", price: 12290 },
+  { id: 982322548, name: "Polvo-Brona Henna Color negro 4g", price: 10890 },
+  { id: 656654654463851, name: "Polvo-Brona Henna  Color Marron Oscuro 4g", price: 10890 },
+  { id: 65326463851, name: "Polvo-Brona Color Henna Marron Claro 4g", price: 10890 },
+  { id: 656789463851, name: "PULUK TOXOX LASH VOLUME", price: 13390 },
+  { id: 6564463851, name: "PULUK TOXOX LASH VITAL", price: 13390 },
+  { id: 65323363851, name: "Pestañas Tecnologicas MIX todas las medidas", price: 9690 },
+  { id: 653239741363851, name: "Pestañas Tecnologicas YY Curva C o D", price: 8990 },
+  { id: 6532397641363851, name: "Pestañas Tecnologicas 3D Cuva C o D", price: 10990 },
+  { id: 65323974176363851, name: "Pestañas Tecnologicas 4D", price: 15990 },
+  { id: 65323974195995363851, name: "Pestañas Tecnologicas 5D", price: 19990 },
+  { id: 653239741363851, name: "Pestañas Tradicionales MIX y Todas las curvas, todas las medidas", price: 6790 }
+
+
 
 
   ]);
