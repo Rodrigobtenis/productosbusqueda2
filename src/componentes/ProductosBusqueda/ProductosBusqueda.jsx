@@ -41,7 +41,7 @@ const ProductList = () => {
     { id: 31, name: 'Pigmento Tewennie', price: 6300 },
   { id: 32, name: 'Luanes', price: 23990 },
   { id: 33, name: 'Iron Works', price: 35000 },
-  { id: 34, name: 'Permablend', price: 39000 },
+  { id: 34, name: 'Permablend', price: 37990 },
   { id: 34, name: 'Dermografo Inalambrico', price: 46900 },
   { id: 36, name: 'Organic Colors Cejas y Delineado', price: 29900 },
   { id: 37, name: 'Organic Colors Labios y Scalp', price: 35900 },
@@ -77,9 +77,10 @@ const ProductList = () => {
   { id: 63, name: 'Cartuchos para pen de tattoo BRONC X10', variants: ['0801', '1001', '1003', '1005'], price: 13500 },
   { id: 64, name: 'Cartuchos para pen de tattoo BRONC Blister', variants: ['0801', '1001', '1003', '1005'], price: 7000 },
   { id: 65, name: 'Cartuchos COCO x10', variants: ['0601', '0801', '1001', '0803', '1003'], price: 11900 },
+  { id: 23465, name: 'Cartuchos COCO x10 PROMO SEGUNDA CAJA', variants: ['0601', '0801', '1001', '0803', '1003'], price: 9620 },
   { id: 66, name: 'Cartuchos COCO x5', variants: ['0601', '0801'], price: 6500 },
-  { id: 67, name: 'Cartuchos Dermografo Medidas 1R y 3R', variants: [], price: 875 },
-  { id: 68, name: 'Cartuchos Dermografo Medidas 5R', variants: [], price: 875 },
+  { id: 67, name: 'Cartuchos Dermografo Medidas 1R y 3R', variants: [], price: 975 },
+  { id: 68, name: 'Cartuchos Dermografo Medidas 5R', variants: [], price: 975 },
   
   { id: 72, name: 'Guantes Nitrilo Negros Talle S y M', price: 6900 },
   { id: 73, name: 'Guantes Nitrilo Rosas Talle S y M', price: 7200 },
@@ -92,7 +93,7 @@ const ProductList = () => {
   { id: 80, name: 'Cubre Pen Rosas x100 Para Proteger al pen de la contaminación cruzada', price: 2800 },
   { id: 81, name: 'Cubre cables x100 Para Proteger al pen y los cables de la contaminación cruzada', price: 2300 },
   { id: 82, name: 'Clorexhidina 300cc Para Armar solución jabonosa', price: 3900 },
-  { id: 83, name: 'Dosificador spray 500cc', price: 1200 },
+  { id: 83, name: 'Dosificador spray 500cc', price: 2200 },
   { id: 84, name: 'Cinta Flex 7.5cm', price: 2100 },
   { id: 85, name: 'Cinta flex 5cm', price: 1900 },
   { id: 86, name: 'Masajeador Rodillo Doble Jade Piedra Guasha Natural Facial', price: 2600 },
@@ -110,7 +111,7 @@ const ProductList = () => {
   { id: 98, name: 'Dosificador spray 500cc', price: 1100 },
   { id: 99, name: 'Piel Sintetica Chica', description: 'Medidas 14x19', price: 2900 },
   { id: 100, name: 'Piel Sintetica Grande A4', description: 'Medida A4', price: 4500 },
-  { id: 101, name: 'Cinta Flex 7.5cm', price: 2100 },
+  { id: 101, name: 'Cinta Flex 7.5cm', price: 2400 },
   { id: 102, name: 'Vaselina Kilo', price: 11800 },
   { id: 102, name: 'Vaselina Medio Kilo', price: 6300 },
   { id: 103, name: 'Papel Hectografico x unidad', price: 590 },
@@ -132,9 +133,9 @@ const ProductList = () => {
   { id: 119, name: 'Grommets Nipples x100', price: 950 },
   { id: 120, name: 'Cable RCA', description: 'Para maquinas rotativas', price: 4900 },
   { id: 121, name: 'limpiador Pestañas curvo', price: 800 },
-  { id: 122, name: 'Apoya Brazo Tattoo Regulable', price: 20900 },
+  { id: 122, name: 'Apoya Brazo Tattoo Regulable', price: 26990 },
   { id: 123, name: 'Tinta Negra Vegetal 1oz', price: 2100 },
-  { id: 124, name: 'Tinta Dynamic USA 1oz', price: 5400 },
+  { id: 124, name: 'Tinta Dynamic USA 1oz', price: 9890 },
   { id: 950057, name: "Pinza Recta Escamas Rose Gold P-29 9500-57", price: 9890 },
   { id: 950134, name: "Pinza Lp-6 9501-34", price: 6200 },
   { id: 950132, name: "Pinza Lp-4 9501-32", price: 6200 },
@@ -184,7 +185,9 @@ const ProductList = () => {
   { id: 6532397641363851, name: "Pestañas Tecnologicas 3D Cuva C o D", price: 10990 },
   { id: 65323974176363851, name: "Pestañas Tecnologicas 4D", price: 15990 },
   { id: 65323974195995363851, name: "Pestañas Tecnologicas 5D", price: 19990 },
-  { id: 653239741363851, name: "Pestañas Tradicionales MIX y Todas las curvas, todas las medidas", price: 6790 }
+  { id: 653239741363851, name: "Pestañas Tradicionales MIX y Todas las curvas, todas las medidas", price: 6790 },
+  { id: 65323974144363851, name: "Kit Amino Lifting", price: 38490 }
+
 
 
 
