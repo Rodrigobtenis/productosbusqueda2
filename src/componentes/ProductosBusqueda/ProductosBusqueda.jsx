@@ -49,9 +49,12 @@ const ProductList = () => {
   { id: 39, name: 'Anestesia TKTX Spray', price: 3500 },
   { id: 40, name: 'Anestesia TAG 45', price: 3900 },
   { id: 43, name: 'Crema post Tattoo Magic x30gr', price: 900 },
-  { id: 44, name: 'Crema Tatuajes Para Brillo, Color Humecta Hidrata', price: 6400 },
+  { id: 44, name: 'Crema Tatuajes Para Brillo, Color Humecta Hidrata', price: 5500 },
   { id: 45, name: 'Crema Tatuajes Para Brillo, Color Humecta Hidrata X2 UNIDADES', price: 12000 },
+
   { id: 46, name: 'Crema Fouguera Microblading', price: 350 },
+  { id: 46565698, name: 'Anestesia Forte Plus 30gr', price: 11720 },
+  { id: 444857984546, name: 'Anestesia Forte Plus 50gr', price: 14805 },
   { id: 47, name: 'Crema Fouguera Microblading x10', price: 2800 },
   { id: 48, name: 'Crema Fouguera Microblading x50', price: 13350 },
   { id: 49, name: 'Pen Rocket 2', price: 115000 },
@@ -59,6 +62,8 @@ const ProductList = () => {
   { id: 51, name: 'Pen Black Bird', price: 69000 },
   { id: 52, name: 'Fuente Nacional sin visor', price: 25990 },
   { id: 190, name: 'Fuente Inalmabrica AVA', price: 47900 },
+  { id: 198987400580, name: 'Pen Inalmabrica PMU', price: 170900 },
+
 { id: 191, name: 'Kit Pen Black Bird con Fuente Digital Completo', description: 'Más de 13 Productos', price: 119000 },
 { id: 191999, name: 'Pen de Tattoo Estandar', description: 'Más de 13 Productos', price: 64000 },
 { id: 199, name: 'Kit Pen Black Bird con Fuente inalámbrica', price: 112000 },
