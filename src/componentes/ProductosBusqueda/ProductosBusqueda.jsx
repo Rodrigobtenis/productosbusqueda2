@@ -71,6 +71,7 @@ const ProductList = () => {
 { id: 665600, name: 'Tinta 5 Jinetes', price: 3900 },
   { id: 53, name: 'Fuente Nacional con Visor', price: 27690 },
   { id: 696, name: 'Crema Post Tattoo Condor 22 Vegana', price: 4500 },
+  
   { id: 54, name: 'Fuente Inalambrica BRONC', price: 72100 },
   { id: 55, name: 'Fuente Inalmabrica Supremme', price: 42300 },
   { id: 56, name: 'Kit Micropigmentacion Tattoo Rocket 2 Fuente Digital', price: 120000 },
