@@ -61,7 +61,7 @@ const ProductList = () => {
     { id: 31, name: 'Pigmento Tewennie', price: 6300 },
     { id: 32, name: 'Luanes', price: 23990 },
     { id: 33, name: 'Iron Works', price: 36200 },
-    { id: 39900113, name: 'Alice', price: 49000 },
+    { id: 39900113, name: 'Alice', price: 48990 },
     { id: 34, name: 'Permablend Clasicos', price: 48200 },
     { id: 34, name: 'Permablend Tina Daevis', price: 51100 },
     { id: 34, name: 'Dermografo Inalambrico', price: 46900 },
@@ -121,8 +121,7 @@ const ProductList = () => {
     { id: 54, name: 'Fuente Inalambrica BRONC', price: 72100 },
     { id: 55, name: 'Fuente Inalmabrica Supremme', price: 42300 },
    
-    { id: 57, name: 'Cartuchos para pen de tattoo xblister 5 unidades AVA', variants: ['0801', '1001', '1201', '0803', '1003', '1203', '1005', '1205', '1207', '1209', '1211', '1214'], price: 8500 },
-    { id: 58, name: 'Cartuchos para pen de tattoo Caja x10 AVA', variants: ['0801', '1001', '1201', '0803', '1003', '1203', '1005', '1205', '1207', '1209', '1211', '1214'], price: 15000 },
+   
     { id: 59, name: 'PROMO SPARK CARTUCHOS X20 UNIDADES', variants: ['1201', '1203', '1205'], price: 17900 },
     
     { id: 61, name: 'PROMO SPARK CARTUCHOS X10 UNIDADES ', variants: ['1201', '1203', '1205', '1207', '1209', '1211', '1214'], price: 9500 },
@@ -175,7 +174,7 @@ const ProductList = () => {
 
 
     { id: 102, name: 'Vaselina Kilo', price: 10890 },
-    { id: 102, name: 'Vaselina Medio Kilo', price: 7000 },
+    { id: 19902, name: 'Vaselina 1/4', price: 4500 },
    
     { id: 105, name: 'Papel Hectografico x10', price: 5900 },
     { id: 106, name: 'Papel Hectografico x100', price: 47900 },
@@ -209,7 +208,7 @@ const ProductList = () => {
     { id: 950044, name: "Pinza Volumen Dorada P-15 9500-44", price: 9890 },
     { id: 89, name: 'Kit de Microblading Completo con Pigmento', price: 23391 },
     { id: 950047, name: "Pinza Volumen Dorada P-19 9500-47", price: 9890 },
-    { id: 950088, name: "Tijera Precisión P-38 9500-88", price: 9890 },
+    { id: 950088, name: "Tijera Precisión P-38 9500-88", price: 10990 },
     { id: 950090, name: "Pinza Corona Ultrafina P-54 9500-90", price: 9890 },
     { id: 950018, name: "Pinza Para Pestañas Rosa - Punta Curva 9500-18", price: 2476 },
     { id: 950019, name: "Pinza Para Pestañas Rosa Punta Recta 9500-19", price: 2476 },
@@ -255,6 +254,23 @@ const ProductList = () => {
     { id: 65323974176363851, name: "Pestañas Tecnologicas 4D", price: 15990 },
     { id: 65323974195995363851, name: "Pestañas Tecnologicas 5D", price: 19990 },
     { id: 653239741363851, name: "Pestañas Tradicionales MIX y Todas las curvas, todas las medidas", price: 6790 },
+    { id: 6532397466961363851, name: "Mini medidor de Humedad", price: 3900 },
+    { id: 65332258239741363851, name: "Micro Cepillos Laminado", price: 3500 },
+    { id: 6532300149741363851, name: "Balsamo Lifting Iconsign", price: 8900 },
+    { id: 65323974136997003851, name: "Bigudies x3 pares", price: 1900 },
+    { id: 65323974136385007781, name: "Promo AVA x 3 cajas x10", price: 36000 },
+    { id: 653239741107891363851, name: "Promo Pinky x2 cajas x20", price: 49800 },
+    { id: 65323974199888363851, name: "Promo COCO x3 cajas x10", price: 37980 },
+    { id: 6532395546741363851, name: "Promo Space Dragon x2 cajas x20", price: 35890 },
+    { id: 6532390556741363851, name: "Promo Spark 5 cajas x10", price: 39900 },
+    { id: 6532395598888741363851, name: "Cartuchos AvA Aqua x5", price: 8100 },
+    { id: 6532397413638121545851, name: "Cartuchos AVA Aqua x10", price: 14300 },
+    { id: 65323974100225599363851, name: "Kit Microblading Premium con ALice", price: 128500 },
+    { id: 6532397998881363851, name: "Pil sintetica con cejas con pigmento", price: 2500 },
+    { id: 88999884452, name: "Microhisopos de plastico x100", price: 2490 },
+    { id: 653239741368800233851, name: "Hisopo Aplicador x50 ", price: 2500 },
+    { id: 65323974136998877113851, name: "Medidor de Cejas Descartables", price: 489 },
+    { id: 6532397400222221363851, name: "Mini medidor de Humedad", price: 3900 },
     { id: 65323974144363851, name: "Kit Amino Lifting", price: 38490 }
 
 
